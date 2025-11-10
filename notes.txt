@@ -1,0 +1,14 @@
+-----CREATE VENV-----
+py/python -m venv venv
+Check version py/python -- version
+
+-----ACTIVATE THE VENV-----
+venv\Scripts\activate
+
+-----INSTALL FLASK----
+pip install Flask
+
+-----RUN APP-----
+py/python server.py
+
+pip3 freeze > requirements.txt
